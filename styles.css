@@ -1,0 +1,40 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5rem;
+}
+
+.d-flex{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.item{
+    box-shadow: inset;
+    border-radius: 5px;
+    width: 20vw;
+    border: 1px solid rgb(171, 171, 171);
+    margin: 1rem;
+    padding: 3rem;
+}
+
+ 
+.fw-bold{
+    font-weight: 700;
+}
+
+button{
+    padding: 1rem 2rem 1rem 2rem;
+    border: 1px solid rgb(193, 190, 190);
+    border-radius: 5px;
+}
+
+button:hover{
+
+    background-color: aqua;
+}
+
+button:active{
+    background-color: indigo;
+    color: white;
+}
