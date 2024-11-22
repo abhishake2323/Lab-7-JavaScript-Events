@@ -20,3 +20,8 @@ formSubm.addEventListener('mouseout', function(event) {
     document.getElementById("userMouseStatus").innerText="Mouse pointer is away from the submit button";
     console.log('Mouse over event triggered!');
 });
+
+
+document.addEventListener('keydown', (event) => {
+     document.getElementById('keyStat').textContent = `Last key pressed : ${event.key}`;
+});
