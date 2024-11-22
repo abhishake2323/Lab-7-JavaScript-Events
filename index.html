@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script defer src="script.js"></script>
     <title>Lab 7 Js Events</title>
 </head>
+
 <body>
 
     <div class="d-flex">
@@ -24,29 +26,30 @@
                 <button type="submit" id="submitBtn">Submit</button>
             </form>
             <br>
-           <label class="fw-bold" >Mouse Status:</label> <label id="userMouseStatus"> Not yet hovered or moved away.</label>
-<br><br>
+            <label class="fw-bold">Mouse Status:</label> <label id="userMouseStatus"> Not yet hovered or moved
+                away.</label>
+            <br><br>
             <label class="fw-bold"> Status:</label> <span id="formStatus"> Form is not submitted</span>
             <br><br>
-            <label class="fw-bold"> Keyboard Event: </label> <span id="keyStat">  </span>
+            <label class="fw-bold"> Keyboard Event: </label> <span id="keyStat"> </span>
 
             <br><br>
-            <label class="fw-bold"> Focus Events: </label> <span id="focusStat">  </span>
+            <label class="fw-bold"> Focus Events: </label> <span id="focusStat"> </span>
             <br>
-             <br>
+            <br>
         </div>
-        <div class="item"> 
-            <div class="nameField">
+        <div class="item">
+            <div id="buttonContainer" class="d-flex"> 
+                <button data-cont="You clicked Button 1!">Button 1</button> <button
+                    data-cont="You clicked Button 2!">Button 2</button> <button
+                    data-cont="You clicked Button 3!">Button 3</button> <button
+                    data-cont="You clicked Button 4!">Button 4</button> </div>
+            <p id="BtnMessage"></p>
 
-            </div>
-            <div class="descField">
-
-            </div>
-
-             
         </div>
-       
+
     </div>
-    
+
 </body>
+
 </html>

@@ -1,17 +1,18 @@
 body {
 
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5rem;
+    margin:1rem 5rem;
 }
 
 .d-flex{
     flex-wrap: wrap;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .item{
-    box-shadow: inset;
+  
     border-radius: 5px;
     width: 20vw;
     border: 1px solid rgb(171, 171, 171);
@@ -19,6 +20,7 @@ body {
     padding: 3rem;
 }
 
+ 
  
 .fw-bold{
     font-weight: 700;
@@ -59,3 +61,5 @@ button:active{
     
     width: 20.5vw;
 }
+
+ 
