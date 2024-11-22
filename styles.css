@@ -7,6 +7,7 @@ body {
 .d-flex{
     flex-wrap: wrap;
     display: flex;
+    align-items: center;
 }
 
 .item{
@@ -37,4 +38,24 @@ button:hover{
 button:active{
     background-color: indigo;
     color: white;
+}
+
+#textbox{
+    border-radius: 5px;
+    height: 30vh;
+    width: 20vw;
+ 
+}
+
+#nameContent{
+    border-radius: 5px;
+    padding:0 5px 10px 0px;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    width: 20vw;
+}
+
+#submitBtn{
+    
+    width: 20.5vw;
 }
