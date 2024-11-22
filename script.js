@@ -22,6 +22,18 @@ formSubm.addEventListener('mouseout', function(event) {
 });
 
 
-document.addEventListener('keydown', (event) => {
+document.addEventListener('keydown', function(event)  {
      document.getElementById('keyStat').textContent = `Last key pressed : ${event.key}`;
 });
+
+
+let formInputs =document.getElementsByClassName("form-inputs");
+
+
+for (let index = 0; index < formInputs.length; index++) {
+    formInputs[index].addEventListener('focus', function(event){
+        document.getElementById('focusStat').innerHTML =`Focussed on the <b> ${formInputs[index].attributes['data-id'].value} </b> field from the form`
+    })
+    
+}
+ 
